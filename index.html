@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title> Sireesha Chintada </title>
+	<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./includes/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="./includes/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./includes/css/style.css">
+</head>
+<body>
+	<div class="container" id="main">
+		<div class="navbar navbar-default my-nav">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class='navbar-header'>
+					<a class="navbar-brand" href="#">
+						<span class='heading-text'>Esha</span> Photogra<span class='heading-sub-text'>phy</span>
+					</a>
+				</div>
+				<div class="navbar-collapse collapse navbar-responsive-collapse pull-right">
+					<ul class="nav navbar-nav my-menu">
+						<li class="active">
+						<a href="#"><span class="glyphicon glyphicon-home"></span> Home</a>
+						</li>
+						<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-tree-deciduous"></span> About</a>
+						</li>
+						<li><a href="#"><span class="glyphicon glyphicon-film"></span> Gallery</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-comment"></span> Comments</a></li>
+						<li>
+							<form class="navbar-form">
+							<input type="text" class="form-control" placeholder="Search for Photos" id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+							</form>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-plus"></span> Add account</a>
+							</li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings </a>
+							</li>
+							<!-- <li class="divider"></li> -->
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out </a>
+							</li>
+						</ul>
+						</li>
+					</ul>
+				</div> <!-- end nav collapse-->
+			</div> <!-- end container -->
+		</div> <!-- end navbar -->
+
+		<div class="carousel slide" id="myCarousel">
+			<!-- Click on the slider -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!-- Slide through my photos -->
+			<div class="carousel-inner">
+
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Sireesha's Photos</h4>
+					</div><!-- end carousel caption  -->
+				</div><!-- end item -->
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>Sireesha's Photos</h4>
+					</div><!-- end carousel caption  -->
+				</div><!-- end item -->
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>Sireesha's Photos</h4>
+					</div><!-- end carousel caption  -->
+				</div><!-- end item -->
+			</div><!-- end Carousel inner -->
+
+			<!-- Sliders-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div> <!-- end Carousel -->
+		<div class="section">
+			<h3> Collection </h3>
+			<hr class="separetor"></hr>
+		</div>
+
+		<div id="options">
+		<div class="row" id="features">
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Flora </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC04237.jpg' alt="html" class="img-rounded"/>
+					<p>Nature is amazing and flowers blossom. Best part of my photography. </p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Flora</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Portrait </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC02137.jpg' alt="html" class="img-rounded"/>
+					<p>Expressions are captured in Portraits. Captured best moments </p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Portrait</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Landscape </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC00779.jpg' alt="html" class="img-rounded"/>
+					<p>Landscape has many things to capture.  Indian beautiful Monuments </p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on landscape</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Abstract </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC01578.jpg' alt="html" class="img-rounded"/>
+					<p>Anything amazing can be captured beautifully defining its elegance </p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Abstract</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Festival </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC03908.jpg' alt="html" class="img-rounded"/>
+					<p>India with different traditions and cultures has amazing festivals</p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Festival</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Wedding </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/Marriage.jpg' alt="html" class="img-rounded"/>
+					<p>Wedding photography is simply a fine art and this is my favourite collection</p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Wedding</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Birds </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC01521.jpg' alt="html" class="img-rounded"/>
+					<p>All wonderful collection of birds which I have seen and clicked on time ;)</p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Birds</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Babies </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC03140.jpg' alt="html" class="img-rounded"/>
+					<p>You wanna go through the most sensitive photography, click here</p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Babies</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Others </h3>
+					</div><!-- end panel Heading-->
+					<img src='./images/DSC02559.jpg' alt="html" class="img-rounded"/>
+					<p>You wanna go through the most sensitive photography, click here</p>
+					<a href="https://www.udemy.com/build-beautiful-html5-website/" target="_blank" class="btn btn-info btn-block">More on Others</a>
+				 </div><!-- end panel -->
+			</div><!-- end col feature-->
+
+		</div> <!-- end Features -->
+	</div>
+
+		<div class="row my-row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3>Camera Used</h3>
+				<div class="tabbable">
+					<div class="tab-pane" id="tab1">
+					<img src="./images/dsc.jpg">
+					<p>Being a non DSLR camera, I managed to shoot the best moments of life. Advanced Point
+						 and Shoot cameras are great for people who are still getting into the hang of
+						 photography though still unsure of how to use a DSLR effectively. Sony DSC H100 is
+						 the perfect camera for beginners and intermediates alike. For intermediates, this will
+						 work well as a secondary camera or a backup camera.</p>
+
+						 <a href="http://www.flipkart.com/sony-dsc-h100-point-shoot-camera/p/itmddzq3znfydh6h" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>
+							 Click to see the Specifications</a>
+					 </div>
+				</div>
+		</div><!-- end col-sm-6-->
+
+		<div class="col-sm-6">
+			<h3>Effects </h3>
+			<div class="tabbable">
+				<div class="tab-pane" id="tab1">
+				<p>As is with most advanced point and shoot cameras, even in the Sony device,
+					 magnification is of prime importance right after picture quality.
+					 The Sony DSC camera however places Magnification and Picture Quality together
+					  by offering a whopping 21 X of Optical Zoom. Optical zoom offers more precision
+						and clarity over digital zoom as it involves actual magnification rather than pixel
+						manipulation as is the case with digital zoom cameras. The Wide Zoom also covers 25 mm to 525 mm.</p>
+						<p>
+							As is with most advanced point and shoot cameras, even in the Sony device,
+							 magnification is of prime importance right after picture quality. The Sony DSC
+							  camera however places Magnification and Picture Quality together by offering a whopping
+								21 X of Optical Zoom. Optical zoom offers more precision and clarity over digital zoom as it
+								 involves actual magnification rather than pixel manipulation as is the case with digital
+								 zoom cameras. The Wide Zoom also covers 25 mm to 525 mm.
+						</p>
+						<p>
+							You can use the highly capable camera for recording movies and videos at 720 pixels.
+							 This HD recording will come in handy for when you want to record your precious memories
+							  in video rather than simply taking pictures. The high quality HD recording capability of the
+								camera can also be used to document important corporate events or formal parties as the camera
+								is more than capable of handling the situation.
+						</p>
+				 </div>
+			</div>
+	</div><!-- end col-sm-6-->
+
+		</div> <!-- end more info-->
+
+		<div class="row" id="more Courses">
+		</div> <!-- end more courses-->
+		<p class="one"> Photography is the science, art and practice of creating durable images by recording light or other electromagnetic
+	  radiation, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such
+	  as photographic film. Typically, a lens is used to focus the light reflected or emitted from objects into a real image
+	  on the light-sensitive surface inside a camera during a timed exposure. With an electronic image sensor, this produces
+	  an electrical charge at each pixel, which is electronically processed and stored in a digital image file for subsequent
+	  display or processing. </p>
+	</div> <!-- end COntainer main-->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h6>Follow me@ </h6> <br>
+						<!-- <ul id="Items"> -->
+							<a href="#"><img src="./images/facebook-64.png"/></a>
+							<a href="#"><img src="./images/download.png"/></a>
+							<a href="#"><img src="./images/instagram.png"/></a>
+							<a href="#"><img src="./images/Twitter.png"/></a>
+							<a href="#"><img src="./images/Pinterest_light.png"/></a>
+						<!-- </ul> -->
+					</div><!--end col-sm-4-->
+					<div class="col-sm-6">
+						<h6> &copy; Sireesha Chintada <span class="glyphicon glyphicon-leaf"></span></h6>
+					</div><!--end col-sm-4-->
+				</div><!-- end row  -->
+			</div> <!-- end footer container -->
+		</footer>
+</body>
+</html>

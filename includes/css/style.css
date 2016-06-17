@@ -1,0 +1,168 @@
+
+/*Nav bar styles*/
+.my-menu{
+  font-size: 15px;
+  color: black;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 5px 10px 10px #80d4ff;
+  font-size: 30px;
+  padding: 13px 15px;
+  border-bottom: 1px solid black;
+}
+
+.my-nav {
+  background: #d7d8a2;
+}
+
+#searchInput{
+  width: 200px;
+}
+
+.feature{
+  height: 400px;
+  padding: 10px;
+}
+
+/*Carousel items*/
+#myCarousel .item{
+  height: 560px;
+}
+
+#slide1 {
+  background: url('../../images/DSC03376.JPG') top center no-repeat;
+}
+
+#slide2 {
+  background: url('../../images/DSC03383.JPG') top center no-repeat;
+}
+
+#slide3 {
+  background: url('../../images/DSC03344.JPG') top center no-repeat;
+}
+
+/*Features styles for gallery items*/
+
+#options{
+  background: #696545;
+  margin-top: 50px;
+  padding: 30px 0;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#features img{
+  border: 0;
+  page-break-inside: avoid;
+  vertical-align: middle;
+  width: 400px;
+  height: 240px;
+  max-width: 100%;
+  margin: 0 0 20px;
+  padding: 5px;
+}
+
+#features{
+  text-align: center;
+  margin: 0 0 20px;
+}
+/*class well styles*/
+.well page-header{
+  margin-top: 10px;
+}
+
+.well page-header h1{
+  margin-top: 0;
+}
+
+/*column styles*/
+.section h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+.my-row h3{
+  font-family: 'Orbitron', sans-serif;
+}
+
+/*Seperator after collection*/
+hr.separetor {
+    width: 80px;
+    color: #363942;
+    border-top: 2px solid #ea9312;
+}
+
+/*BOdy styles*/
+
+body{
+  padding-top: 1px;
+  margin: 0;
+  heigth: 100%;
+  background-color: white;
+  background-size: auto;
+}
+
+/*Headings */
+
+.heading-text {
+  color: #ff0066;
+}
+
+.heading-sub-text {
+  color: #bf4080;
+}
+
+h3{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #2B2301;
+}
+
+h4 {
+  color: white;
+  font-family: 'Tangerine', cursive;
+}
+
+h6{
+  font-size: 50px;
+  display: inline-block;
+}
+
+
+p.one {
+    font: Courier New;
+    font-style: italic;
+    font-size: 20px;
+    padding: 30px;
+    width: 80%;
+    font-family: -webkit-pictograph;
+    color: black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+li.clear{
+  clear:both;
+}
+
+
+/*Footer styles*/
+footer {
+    font-family: 'Dancing Script', cursive;
+    background-color: #1d2b2b;
+    color: white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+footer img{
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
