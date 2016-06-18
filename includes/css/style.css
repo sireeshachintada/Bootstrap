@@ -14,7 +14,7 @@
 }
 
 .my-nav {
-  background: #d7d8a2;
+  background: black;
 }
 
 #searchInput{
@@ -59,7 +59,7 @@
   page-break-inside: avoid;
   vertical-align: middle;
   width: 400px;
-  height: 260px;
+  height: 245px;
   max-width: 100%;
   margin: 0 0 20px;
   padding: 5px;
